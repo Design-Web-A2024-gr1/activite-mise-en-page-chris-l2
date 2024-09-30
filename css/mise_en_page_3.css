@@ -1,0 +1,19 @@
+img {
+    display:flex;
+    width:300px;
+    height: 300px;
+    justify-content:right;
+    
+}
+article {
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside{
+    display: flex;
+   flex-direction: column;
+   width: 400px;
+}
+#conteneur{
+    display: flex;
+}

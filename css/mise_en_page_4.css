@@ -1,0 +1,31 @@
+#conteneur{
+    display: flex;
+}
+
+main {
+    flex: 1 0 0;
+}
+
+aside{
+    flex: 0 0 400px;
+}
+img {
+    display:flex;
+    max-width: 300px;
+    justify-content:right;
+    
+}
+article {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav{
+    flex: 0 0 250px;
+}
+
+#menu2{
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid red ;
+}

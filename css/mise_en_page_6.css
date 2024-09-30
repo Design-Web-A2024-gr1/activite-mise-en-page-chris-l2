@@ -1,0 +1,23 @@
+#menu1{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+#menu2{
+    display: flex;
+    justify-content: flex-end;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    display: grid;
+    grid-template-rows: 1fr 0fr 0fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+aside{
+    display: none;
+}

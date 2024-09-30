@@ -1,0 +1,27 @@
+#menu1{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+#menu2{
+    display: flex;
+    justify-content: flex-end;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+   
+}
+aside{
+    display: none;
+}
+article {
+    min-block-size: 400px;
+    flex-wrap: wrap;
+}
